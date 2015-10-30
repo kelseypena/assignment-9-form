@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>The Harry Potter Quiz</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <p>Published over a span of ten years, the Harry Potter books have led to widely popular movie adaptations, theme parks, video games, and a soon to be released theatrical production. Sure, you may have read the books a few times. Maybe you've even watched the movies before, but how much do you truly know about the best-selling book series of all time? Put your knowledge to the test and take this quiz to find out!</p>
+            <p><a href="https://en.wikipedia.org/wiki/Harry_Potter">Harry Potter Wikipedia</a></p>
+            <form>
+            <div class="radio">
+                <p><strong>In what year was the first Harry Potter book published?</strong></p>
+                <label>
+                    <input type="radio" name="year" id="year1" value="1989">
+                    1989
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="year" id="year2" value="2003">
+                    2003
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="year" id="year3" value="1997">
+                    1997
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="year" id="year4" value="1975">
+                    1975
+                </label> 
+            </div>
+            <div class="form-group">
+                <label for="form-name">What was Lord Voldemort's real name?</label>
+                <input class="form-control" type="text" name="realname" id="form-name">
+            </div>
+            <div class="checkbox">
+                <p><strong>What are the names of the four Hogwarts houses?</strong></p>
+                <label>
+                    <input type="checkbox" name="house[]" id="house1" value="Hufflepuff">
+                    Hufflepuff 
+                </label>
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" name="house[]" id="house2" value="Beauxbatons">
+                    Beauxbatons
+                </label>
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" name="house[]" id="house3" value="Slytherin">
+                    Slytherin
+                </label>
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" name="house[]" id="house4" value="Gryffindor">
+                    Gryffindor
+                </label>
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" name="house[]" id="house5" value="Durmstrang">
+                    Durmstrang
+                </label>
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" name="house[]" id="house6" value="Ravenclaw">
+                    Ravenclaw 
+                </label>
+            </div>
+            <div class="form-group">
+                <label for="form-spell">What curse did Harry use in his final battle against Voldemort?</label>
+                <input class="form-control" type="text" name="finalspell" id="form-spell">
+            </div>
+            <div class="form-group">
+                <label for="bookname">In what book did Sirius Black die?</label>
+                <select class="form-control" name="bookname" id="bookname">
+                    <option>Harry Potter and the Sorcerer's Stone</option>
+                    <option>Harry Potter and the Chamber of Secrets</option>
+                    <option>Harry Potter and the Prisoner of Azkaban</option>
+                    <option>Harry Potter and the Goblet of Fire</option>
+                    <option>Harry Potter and the Order of the Phoenix</option>
+                    <option>Harry Potter and the Half-Blood Prince</option>
+                    <option>Harry Potter and the Deathly Hallows</option>
+                    <option>Fantastic Beasts and Where to Find Them</option>
+                    <option>The Tales of Beedle the Bard</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="form-story">What are the Deathly Hallows and what does each one do?</label>
+                <textarea class="form-control" name="story" id="form-story"></textarea>
+            </div>
+            <div class="form-group">
+                <input class="btn btn-default" type="submit" value="Submit">
+                <input class="btn btn-default" type="reset" value="Reset">
+            </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
